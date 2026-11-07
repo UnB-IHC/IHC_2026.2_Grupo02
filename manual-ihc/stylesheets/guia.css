@@ -56,6 +56,13 @@
   font-weight: 650;
 }
 
+.author-photo {
+  width: 7rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .author-card figcaption {
   font-size: 0.92rem;
   font-weight: 600;

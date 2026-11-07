@@ -173,7 +173,6 @@ Este checklist reúne as perguntas de acessibilidade das páginas 9–10 do PDF.
   <div class="checklist-heading">
     <strong>Inspeção de acessibilidade da interface</strong>
     <span data-progress-label>0 de 9 itens concluídos</span>
-    <span class="pdf-page-reference">PDF, pp. 9–10</span>
   </div>
   <progress max="9" value="0" aria-label="Progresso da inspeção de acessibilidade da interface"></progress>
   <fieldset>
