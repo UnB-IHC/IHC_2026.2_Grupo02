@@ -1,41 +1,64 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
-
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
-
-use_directory_urls: False
-
-nav:
-  - Início - VerificAAA: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
-  
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+site_name: Guia Prático de IHC
+site_description: Guia de Interacao Humano-Computador, usabilidade, design centrado em pessoas e acessibilidade digital.
+site_url: https://unb-ihc.github.io/IHC_2026.2_Grupo02/
+docs_dir: manual-ihc
+site_dir: site-guia-ihc
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  name: material
+  language: pt
+  font:
+    text: Poppins
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Ativar tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Ativar tema claro
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - toc.follow
+
+nav:
+  - Inicio: index.md
+  - Sobre os autores: autores.md
+  - Fundamentos de IHC: fundamentos.md
+  - Usabilidade e Carga Mental: usabilidade.md
+  - Design centrado em pessoas: design-centrado.md
+  - Acessibilidade digital: acessibilidade.md
+  - Service Blueprint: blueprint.md
+  - Referencias e escopo: referencias.md
 
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
   - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: false
-      clickable_checkbox: true
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/guia.css
+
+extra_javascript:
+  - javascripts/guia.js

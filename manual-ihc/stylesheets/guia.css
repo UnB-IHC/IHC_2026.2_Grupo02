@@ -1,0 +1,224 @@
+:root {
+  color-scheme: light dark;
+  --ihc-border: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+  --ihc-accent: var(--md-accent-fg-color);
+}
+
+.md-typeset h1 {
+  font-weight: 750;
+  letter-spacing: -0.035em;
+}
+
+.md-typeset h2 {
+  margin-top: 2rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-color: var(--ihc-border);
+  border-radius: 0.8rem;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  box-shadow: var(--md-shadow-z2);
+  transform: translateY(-2px);
+}
+
+.author-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.author-card {
+  display: grid;
+  justify-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 1rem 0.75rem;
+  border: 1px solid var(--ihc-border);
+  border-radius: 0.85rem;
+  text-align: center;
+}
+
+.author-photo-placeholder {
+  display: grid;
+  width: 7rem;
+  aspect-ratio: 1;
+  place-items: center;
+  overflow: hidden;
+  border: 2px dashed color-mix(in srgb, var(--md-primary-fg-color) 45%, var(--md-default-bg-color));
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 9%, var(--md-default-bg-color));
+  color: var(--md-default-fg-color);
+  font-size: 1.35rem;
+  font-weight: 650;
+}
+
+.author-card figcaption {
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.ihc-checklist,
+.ihc-worksheet {
+  margin: 1.25rem 0 2rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid var(--ihc-border);
+  border-radius: 0.85rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.checklist-heading,
+.checklist-actions,
+.worksheet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+}
+
+.checklist-heading {
+  margin-bottom: 0.5rem;
+}
+
+.checklist-heading [data-progress-label] {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.82rem;
+}
+
+.pdf-page-reference {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+}
+
+.ihc-checklist progress {
+  display: block;
+  width: 100%;
+  height: 0.65rem;
+  margin: 0.75rem 0 1rem;
+  accent-color: var(--ihc-accent);
+}
+
+.ihc-checklist fieldset {
+  display: grid;
+  gap: 0.65rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ihc-checklist legend {
+  margin-bottom: 0.65rem;
+  font-weight: 650;
+}
+
+.ihc-checklist fieldset label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--ihc-border);
+  border-radius: 0.6rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+}
+
+.ihc-checklist input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin: 0.15rem 0 0;
+  accent-color: var(--md-accent-fg-color);
+}
+
+.ihc-checklist fieldset label:focus-within,
+.ihc-worksheet textarea:focus-visible,
+.ihc-worksheet button:focus-visible {
+  outline: 3px solid var(--ihc-accent);
+  outline-offset: 3px;
+}
+
+.checklist-actions p,
+.worksheet-actions p {
+  margin: 0.5rem 0;
+  font-size: 0.82rem;
+}
+
+.ihc-checklist .checklist-actions,
+.ihc-worksheet .worksheet-actions {
+  margin-top: 1rem;
+}
+
+.ihc-checklist .checklist-actions [data-reset-checklist],
+.ihc-worksheet .worksheet-actions [data-clear-worksheet] {
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 36%, var(--md-default-bg-color));
+  border-radius: 0.45rem;
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 10%, var(--md-default-bg-color));
+  color: var(--md-default-fg-color);
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+
+.ihc-checklist .checklist-actions [data-reset-checklist]:hover,
+.ihc-worksheet .worksheet-actions [data-clear-worksheet]:hover {
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 58%, var(--md-default-bg-color));
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 19%, var(--md-default-bg-color));
+  color: var(--md-default-fg-color);
+}
+
+.storage-error {
+  color: var(--md-typeset-a-color);
+  font-weight: 650;
+}
+
+.checklist-actions [data-checklist-status]:empty {
+  display: none;
+}
+
+.worksheet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 1rem;
+}
+
+.worksheet-grid label {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+.ihc-worksheet textarea {
+  width: 100%;
+  min-height: 3.5rem;
+  padding: 0.7rem;
+  border: 1px solid var(--ihc-border);
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 400;
+  resize: vertical;
+}
+
+.ihc-worksheet textarea::placeholder {
+  color: var(--md-default-fg-color--light);
+}
+
+.worksheet-actions {
+  margin-top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
