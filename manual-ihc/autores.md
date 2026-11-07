@@ -9,7 +9,7 @@ Este guia adapta o material do projeto da disciplina para uma documentação nav
 <div class="author-grid" markdown>
 
 <figure class="author-card">
-  <img class="author-photo" src="imagens/anna.jpeg" alt="Foto de Anna Júlia Primo">
+  <img class="author-photo" src="../imagens/anna.jpeg" alt="Foto de Anna Júlia Primo">
   <figcaption>Anna Júlia Primo</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ Este guia adapta o material do projeto da disciplina para uma documentação nav
 </figure>
 
 <figure class="author-card">
-  <img class="author-photo" src="imagens/mariaeduarda.jfif" alt="Foto de Maria Eduarda Gomes">
+  <img class="author-photo" src="../imagens/mariaeduarda.jfif" alt="Foto de Maria Eduarda Gomes">
   <figcaption>Maria Eduarda Gomes</figcaption>
 </figure>
 
