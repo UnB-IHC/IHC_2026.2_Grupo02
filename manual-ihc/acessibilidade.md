@@ -241,4 +241,4 @@ Os checklists abaixo adaptam os itens das páginas 31, 33, 35 e 37 do PDF. Marca
 - Estrutura semântica de títulos, controles e tabelas.
 - Ação importante com confirmação apropriada e saída clara.
 
-Veja também os [fundamentos de acessibilidade e normas](fundamentos.md#acessibilidade-e-normas) e as [referências bibliográficas](referencias.md#referencias-bibliograficas).
+Veja também as [normas WCAG e ABNT NBR 17225:2025](normas-acessibilidade.md), os [fundamentos de acessibilidade](fundamentos.md#acessibilidade-e-normas) e as [referências bibliográficas](referencias.md#referencias-bibliograficas).

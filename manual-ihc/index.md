@@ -25,7 +25,7 @@ Um guia para projetar e avaliar interfaces mais **úteis, compreensíveis, acess
 
     ---
 
-    Combine ferramentas automáticas e testes manuais na página de [acessibilidade digital](acessibilidade.md).
+    Combine [ferramentas automáticas e testes manuais](acessibilidade.md) com as [normas WCAG e ABNT](normas-acessibilidade.md).
 
 -   **Preciso entender o serviço completo**
 
@@ -73,4 +73,3 @@ Marque o que já verificou. O progresso fica salvo localmente neste navegador; n
 Use o menu lateral para percorrer os temas ou a busca para encontrar conceitos. Em telas pequenas, abra o menu principal no topo. Os temas claro e escuro acompanham a preferência do dispositivo e podem ser alternados no cabeçalho.
 
 Conheça o [Grupo 02 e os autores do material](autores.md).
-

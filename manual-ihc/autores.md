@@ -14,22 +14,22 @@ Este guia adapta o material do projeto da disciplina para uma documentação nav
 </figure>
 
 <figure class="author-card">
-  <div class="author-photo-placeholder" role="img" aria-label="Espaço reservado para a foto de Cibelle Assis">CA</div>
+  <img class="author-photo" src="../imagens/cibelle.jfif" alt="Foto de Cibelle Assis">
   <figcaption>Cibelle Assis</figcaption>
 </figure>
 
 <figure class="author-card">
-  <div class="author-photo-placeholder" role="img" aria-label="Espaço reservado para a foto de Clarice Gusson">CG</div>
+  <img class="author-photo" src="../imagens/claroce.jfif" alt="Foto de Clarice Gusson">
   <figcaption>Clarice Gusson</figcaption>
 </figure>
 
 <figure class="author-card">
-  <div class="author-photo-placeholder" role="img" aria-label="Espaço reservado para a foto de Danielly Mendes">DM</div>
+  <img class="author-photo" src="../imagens/dani.jfif" alt="Foto de Danielly Mendes">
   <figcaption>Danielly Mendes</figcaption>
 </figure>
 
 <figure class="author-card">
-  <div class="author-photo-placeholder" role="img" aria-label="Espaço reservado para a foto de Eduardo Jesus">EJ</div>
+  <img class="author-photo" src="../imagens/eduardo.jfif" alt="Foto de Eduardo Jesus">
   <figcaption>Eduardo Jesus</figcaption>
 </figure>
 
@@ -39,12 +39,12 @@ Este guia adapta o material do projeto da disciplina para uma documentação nav
 </figure>
 
 <figure class="author-card">
-  <div class="author-photo-placeholder" role="img" aria-label="Espaço reservado para a foto de João Pedro Cordeiro">JC</div>
+  <img class="author-photo" src="../imagens/joao.jfif" alt="Foto de João Pedro Cordeiro">
   <figcaption>João Pedro Cordeiro</figcaption>
 </figure>
 
 <figure class="author-card">
-  <div class="author-photo-placeholder" role="img" aria-label="Espaço reservado para a foto de Júlia Amanda Lima">JL</div>
+  <img class="author-photo" src="../imagens/julia.jfif" alt="Foto de Júlia Amanda Lima">
   <figcaption>Júlia Amanda Lima</figcaption>
 </figure>
 
