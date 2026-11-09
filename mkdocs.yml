@@ -39,9 +39,9 @@ nav:
   - Fundamentos de IHC: fundamentos.md
   - Usabilidade e Carga Mental: usabilidade.md
   - Design centrado em pessoas: design-centrado.md
-  - Capítulo 4 — Ferramentas de acessibilidade: acessibilidade.md
-  - Capítulo 5 — Normas WCAG/NBR: normas-acessibilidade.md
-  - Capítulo 6 — Service Blueprint: blueprint.md
+  - Ferramentas de acessibilidade: acessibilidade.md
+  - Normas WCAG/NBR: normas-acessibilidade.md
+  - Service Blueprint: blueprint.md
   - Referencias e escopo: referencias.md
 
 markdown_extensions:
