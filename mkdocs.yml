@@ -42,6 +42,7 @@ nav:
   - Ferramentas de acessibilidade: acessibilidade.md
   - Normas WCAG/NBR: normas-acessibilidade.md
   - Service Blueprint: blueprint.md
+  - Teste de usabilidade: teste-usabilidade.md
   - Referencias e escopo: referencias.md
 
 markdown_extensions:

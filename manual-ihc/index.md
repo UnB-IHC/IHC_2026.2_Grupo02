@@ -27,6 +27,12 @@ Um guia para projetar e avaliar interfaces mais **úteis, compreensíveis, acess
 
     Combine [ferramentas automáticas e testes manuais](acessibilidade.md) com as [normas WCAG e ABNT](normas-acessibilidade.md).
 
+-   **Quero testar com pessoas**
+
+    ---
+
+    Planeje e conduza um [teste de usabilidade com participantes](teste-usabilidade.md), registre evidências e analise os resultados.
+
 -   **Preciso entender o serviço completo**
 
     ---
@@ -43,7 +49,7 @@ Um guia para projetar e avaliar interfaces mais **úteis, compreensíveis, acess
 4. **Priorize melhorias:** considere impacto, frequência e risco para as pessoas.
 5. **Teste novamente:** confira se a mudança resolveu o problema sem criar outro.
 
-O guia transforma perguntas e checklists do PDF em itens marcáveis, identificados pela página da fonte. Marcar um item registra que ele foi revisado; não significa que a interface passou no critério. Navegue direto para [fundamentos e avaliação de interface](fundamentos.md#checklists-interativos-como-aplicar-e-avaliar), [usabilidade e cognição](usabilidade.md#checklists-interativos), [artefatos de DCU](design-centrado.md#checklists-do-pdf) ou [ferramentas de acessibilidade](acessibilidade.md#checklists-do-pdf).
+O guia transforma perguntas e checklists do PDF em itens marcáveis, identificados pela página da fonte. Marcar um item registra que ele foi revisado; não significa que a interface passou no critério. Navegue direto para [fundamentos e avaliação de interface](fundamentos.md#checklists-interativos-como-aplicar-e-avaliar), [usabilidade e cognição](usabilidade.md#checklists-interativos), [artefatos de DCU](design-centrado.md#checklists-do-pdf), [ferramentas de acessibilidade](acessibilidade.md#checklists-do-pdf) ou [testes com participantes](teste-usabilidade.md).
 
 ## Progresso da revisão
 
