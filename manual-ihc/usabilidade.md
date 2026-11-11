@@ -1,4 +1,4 @@
-# Usabilidade, carga mental e cognição
+# Capítulo 2 — Usabilidade, carga mental e cognição
 
 ## Metas de usabilidade
 

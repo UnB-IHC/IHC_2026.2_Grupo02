@@ -1,4 +1,4 @@
-# Service Blueprint
+# Capítulo 6 — Service Blueprint
 
 O Service Blueprint amplia a visão da jornada para relacionar a experiência visível da pessoa (**frontstage**) aos processos, sistemas e equipes que a sustentam (**backstage**).
 

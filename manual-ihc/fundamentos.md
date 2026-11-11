@@ -1,4 +1,4 @@
-# Fundamentos de IHC, UX e UI
+# Capítulo 1 — Fundamentos de IHC, UX e UI
 
 ## Interação Humano-Computador
 

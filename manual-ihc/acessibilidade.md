@@ -1,4 +1,4 @@
-# Acessibilidade digital
+# Capítulo 4 — Acessibilidade digital: ferramentas
 
 Acessibilidade digital é a prática de remover barreiras para que pessoas com diferentes capacidades, incluindo quem usa tecnologias assistivas, possam acessar e operar conteúdo e serviços.
 

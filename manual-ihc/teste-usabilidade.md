@@ -1,4 +1,4 @@
-Teste de usabilidade com usuário real
+# Capítulo 7 — Teste de usabilidade com usuário real
 
 O teste de usabilidade observa como pessoas do público-alvo interagem com um sistema enquanto realizam tarefas. Ele ajuda a identificar dificuldades, erros e percepções no uso real, complementando inspeções baseadas em critérios técnicos.
 

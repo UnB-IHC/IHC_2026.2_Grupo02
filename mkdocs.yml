@@ -36,13 +36,13 @@ theme:
 nav:
   - Inicio: index.md
   - Sobre os autores: autores.md
-  - Fundamentos de IHC: fundamentos.md
-  - Usabilidade e Carga Mental: usabilidade.md
-  - Design centrado em pessoas: design-centrado.md
-  - Ferramentas de acessibilidade: acessibilidade.md
-  - Normas WCAG/NBR: normas-acessibilidade.md
-  - Service Blueprint: blueprint.md
-  - Teste de usabilidade: teste-usabilidade.md
+  - "Capítulo 1 — Fundamentos de IHC, UX e UI": fundamentos.md
+  - "Capítulo 2 — Usabilidade, carga mental e cognição": usabilidade.md
+  - "Capítulo 3 — UCD e design empático": design-centrado.md
+  - "Capítulo 4 — Acessibilidade digital: ferramentas": acessibilidade.md
+  - "Capítulo 5 — Acessibilidade digital: normas (WCAG/NBR)": normas-acessibilidade.md
+  - "Capítulo 6 — Service Blueprint": blueprint.md
+  - "Capítulo 7 — Teste de usabilidade com usuário real": teste-usabilidade.md
   - Referencias e escopo: referencias.md
 
 markdown_extensions:
