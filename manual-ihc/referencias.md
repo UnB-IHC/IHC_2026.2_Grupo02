@@ -2,8 +2,6 @@
 
 ## Referências bibliográficas
 
-Referências transcritas das páginas legíveis do PDF fornecido:
-
 - ABNT. **NBR 17225:2025. Acessibilidade na Web — Requisitos de Acessibilidade para Conteúdo Web.** Rio de Janeiro: Associação Brasileira de Normas Técnicas, 2025.
 - BARBOSA, Simone Diniz Junqueira et al. **Interação Humano-Computador e Experiência do Usuário.** Rio de Janeiro: Autopublicação, 2021.
 - BASTIEN, J. M. Christian; SCAPIN, Dominique L. **Ergonomic Criteria for the Evaluation of Human-Computer Interfaces.** INRIA, Technical Report No. 156, 1993.
