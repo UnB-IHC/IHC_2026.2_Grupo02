@@ -2,6 +2,12 @@
 
 Um guia para projetar e avaliar interfaces mais **úteis, compreensíveis, acessíveis e agradáveis de usar**. O conteúdo parte do PDF *Guia Prático de IHC*, do Grupo 02 da disciplina de Interação Humano-Computador da Universidade de Brasília.
 
+## Baixe o guia original
+
+Acesse ou baixe a versão final do material em PDF.
+
+[Baixar o Guia Pocket de IHC (PDF)](arquivos/guia-pocket-ihc-grupo-02.pdf){ .md-button .md-button--primary download }
+
 !!! info "Use como guia de avaliação, não como selo de conformidade"
     As perguntas ajudam a encontrar barreiras, mas não substituem testes com pessoas, avaliação especializada nem a consulta às normas completas.
 
